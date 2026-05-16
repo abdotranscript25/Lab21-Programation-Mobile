@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+
+    <!-- Menu principal -->
+    <string name="menu_home"> Accueil</string>
+    <string name="menu_list"> Liste des capteurs</string>
+    <string name="menu_temp">️ Température</string>
+    <string name="menu_humid"> Humidité</string>
+    <string name="menu_proximity"> Proximité</string>
+    <string name="menu_magnetic"> Champ magnétique</string>
+    <string name="menu_compass"> Boussole</string>
+    <string name="menu_rotation"> Rotation</string>
+    <string name="menu_share"> Partager</string>
+
+    <!-- Nouveaux capteurs -->
+    <string name="menu_accelerometer"> Accéléromètre</string>
+    <string name="menu_gravity"> Gravité</string>
+    <string name="menu_gyroscope"> Gyroscope</string>
+    <string name="menu_steps"> Compteur de pas</string>
+    <string name="menu_activity"> Reconnaissance d\'activité</string>
+
+    <!-- Sections -->
+    <string name="section_environmental"> Capteurs environnementaux</string>
+    <string name="section_motion"> Capteurs de mouvement</string>
+    <string name="section_others"> Autres capteurs</string>
+    <string name="section_communication"> Communication</string>
+
+    <!-- Messages -->
+    <string name="capteur_indisponible">❌ Capteur non disponible sur ce téléphone</string>
+
+    <string name="compass_title">🧭 BOUSSOLE NUMÉRIQUE</string>
+    <string name="compass_waiting">🟡 En attente des capteurs...</string>
+    <string name="compass_active">🟢 Capteurs actifs - Tournez le téléphone</string>
+
+    <string name="hello_blank_fragment">Champ magnétique</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+
+</resources>

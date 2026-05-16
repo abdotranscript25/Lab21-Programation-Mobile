@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <!-- SECTION CAPTEURS ENVIRONNEMENTAUX -->
+        <item android:title="📡 Environnementaux">
+            <menu>
+                <item android:id="@+id/nav_sensors" android:title="🔍 Liste des capteurs" />
+                <item android:id="@+id/nav_temp" android:title="🌡️ Température" />
+                <item android:id="@+id/nav_humd" android:title="💧 Humidité" />
+                <item android:id="@+id/nav_proximity" android:title="📡 Proximité" />
+                <item android:id="@+id/nav_magnetic" android:title="🧲 Champ magnétique" />
+            </menu>
+        </item>
+
+        <!-- SECTION CAPTEURS DE MOUVEMENT -->
+        <item android:title="🎯 Mouvement">
+            <menu>
+                <item android:id="@+id/nav_accelerometer" android:title="📊 Accéléromètre" />
+                <item android:id="@+id/nav_gravity" android:title="🌍 Gravité" />
+                <item android:id="@+id/nav_gyroscope" android:title="🔄 Gyroscope" />
+            </menu>
+        </item>
+
+        <!-- SECTION AUTRES CAPTEURS -->
+        <item android:title="🧭 Autres">
+            <menu>
+                <item android:id="@+id/nav_steps" android:title="👣 Compteur de pas" />
+                <item android:id="@+id/nav_compass" android:title="🧭 Boussole" />
+                <item android:id="@+id/nav_activity" android:title="🏃 Reconnaissance d'activité" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

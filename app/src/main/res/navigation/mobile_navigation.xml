@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sensors">
+
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ensa.ma.sensors.fragments.SensorsListFragment"
+        android:label="🔍 Liste des capteurs" />
+
+    <fragment
+        android:id="@+id/nav_temp"
+        android:name="ensa.ma.sensors.fragments.SensorGraphFragment"
+        android:label="🌡️ Température" />
+
+    <fragment
+        android:id="@+id/nav_humd"
+        android:name="ensa.ma.sensors.fragments.SensorGraphFragment"
+        android:label="💧 Humidité" />
+
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="ensa.ma.sensors.fragments.SensorGraphFragment"
+        android:label="📡 Proximité" />
+
+    <fragment
+        android:id="@+id/nav_magnetic"
+        android:name="ensa.ma.sensors.fragments.SensorGraphFragment"
+        android:label="🧲 Champ magnétique" />
+
+    <fragment
+        android:id="@+id/nav_accelerometer"
+        android:name="ensa.ma.sensors.fragments.MotionSensorFragment"
+        android:label="📊 Accéléromètre" />
+
+    <fragment
+        android:id="@+id/nav_gravity"
+        android:name="ensa.ma.sensors.fragments.MotionSensorFragment"
+        android:label="🌍 Gravité" />
+
+    <fragment
+        android:id="@+id/nav_gyroscope"
+        android:name="ensa.ma.sensors.fragments.MotionSensorFragment"
+        android:label="🔄 Gyroscope" />
+
+    <fragment
+        android:id="@+id/nav_steps"
+        android:name="ensa.ma.sensors.fragments.StepCounterFragment"
+        android:label="👣 Compteur de pas" />
+
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ensa.ma.sensors.fragments.CompassFragment"
+        android:label="🧭 Boussole" />
+
+    <fragment
+        android:id="@+id/nav_activity"
+        android:name="ensa.ma.sensors.fragments.ActivityRecognitionFragment"
+        android:label="🏃 Reconnaissance d'activité" />
+
+</navigation>
